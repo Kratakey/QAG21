@@ -7,9 +7,9 @@ repositories {
     mavenCentral()
 }
 
-def allureVersion = "2.13.8",
-    selenideVersion = "5.20.1",
-    junitVersion = "5.7.1"
+def allureVersion = "2.16.1",
+    selenideVersion = "5.25.0",
+    junitVersion = "5.8.1"
 
 allure {
     version = allureVersion
@@ -27,7 +27,7 @@ dependencies {
             "org.aspectj:aspectjweaver:1.9.6",
             "com.codeborne:selenide:$selenideVersion",
             "io.qameta.allure:allure-selenide:$allureVersion",
-            "io.appium:java-client:7.3.0",
+            "io.appium:java-client:7.6.0",
             "io.rest-assured:rest-assured:4.3.3",
             "org.junit.jupiter:junit-jupiter-api:$junitVersion")
     testRuntimeOnly(
